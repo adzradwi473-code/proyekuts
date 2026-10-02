@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Tarian - BorneoDance Culture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">BorneoDance</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="katalog.html" class="active">Katalog Tari</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container detail-section">
+            <a href="katalog.html" class="btn-back">&larr; Kembali ke Katalog</a>
+            
+            <div id="detailContainer" class="detail-container"></div>
+
+            <div class="reviews-section">
+                <h3>Ulasan & Komentar Pengunjung</h3>
+                <form id="reviewForm" class="review-form">
+                    <div class="form-group">
+                        <label for="reviewerName">Nama Anda</label>
+                        <input type="text" id="reviewerName" placeholder="Masukkan nama..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewerComment">Komentar / Ulasan</label>
+                        <textarea id="reviewerComment" rows="4" placeholder="Tuliskan ulasan atau tanggapan Anda tentang tarian ini..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Komentar</button>
+                </form>
+
+                <div id="reviewsList" class="reviews-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; BorneoDance Culture</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

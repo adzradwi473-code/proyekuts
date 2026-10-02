@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Tari - BorneoDance Culture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">BorneoDance</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="katalog.html" class="active">Katalog Tari</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container catalog-section">
+            <div class="section-title">
+                <h3>Direktori & Katalog Tarian</h3>
+                <p>Temukan informasi lengkap mengenai sejarah, makna filosofis, ragam busana, dan properti yang digunakan dalam setiap tarian tradisional Kalimantan.</p>
+            </div>
+
+            <div class="filter-container">
+                <input type="text" id="searchInput" placeholder="Cari nama tari, deskripsi, atau atribut...">
+                <select id="regionFilter">
+                    <option value="all">Semua Wilayah</option>
+                    <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                    <option value="Kalimantan Timur">Kalimantan Timur</option>
+                    <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                    <option value="Kalimantan Barat">Kalimantan Barat</option>
+                    <option value="Kalimantan Utara">Kalimantan Utara</option>
+                </select>
+            </div>
+
+            <div id="danceGrid" class="dance-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; BorneoDance Culture</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
