@@ -1,4 +1,3 @@
-# proyekuts
 # BorneoDance Culture
 
 Repositori ini berisi kode sumber lengkap untuk proyek **BorneoDance Culture**, sebuah ensiklopedia digital dan direktori interaktif yang menampilkan ragam seni tari tradisional dari berbagai provinsi di pulau Kalimantan. Proyek ini dikembangkan untuk memenuhi penugasan pembuatan web modern berbasis HTML5, CSS responsif, dan logika JavaScript interaktif.
