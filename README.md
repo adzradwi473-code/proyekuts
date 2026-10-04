@@ -11,12 +11,12 @@ Repositori ini berisi kode sumber lengkap untuk proyek **BorneoDance Culture**, 
 
 ## Struktur Direktori Proyek
 proyekuts/
-index.html: Halaman Beranda utama
-katalog.html: Halaman direktori dan pencarian tarian
-detail.html: Halaman informasi detail tarian & ulasan
-pendaftaran.html: Halaman formulir pendaftaran workshop
-style.css: Berkas gaya tata letak & tema visual
-script.js: Logika interaktif, data array, dan DOM manipulation
+- index.html: Halaman Beranda utama
+- katalog.html: Halaman direktori dan pencarian tarian
+- detail.html: Halaman informasi detail tarian & ulasan
+- pendaftaran.html: Halaman formulir pendaftaran workshop
+- style.css: Berkas gaya tata letak & tema visual
+- script.js: Logika interaktif, data array, dan DOM manipulation
 
 ## Cara Menjalankan Proyek Secara Lokal
 1. Pastikan Anda telah mengunduh atau mengklon repositori ini ke komputer Anda.
